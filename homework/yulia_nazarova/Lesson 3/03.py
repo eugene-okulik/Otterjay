@@ -15,3 +15,4 @@ data = [num_one, num_two]
 formula_two = statistics.geometric_mean(data)
 print("Среднее геометрическое: " + str(formula_two))
 
+
