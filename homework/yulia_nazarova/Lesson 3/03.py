@@ -5,9 +5,9 @@ import statistics
 num_one = 8
 num_two = 2
 data = [num_one, num_two]
-quantity = len(data) # решила попробовать сделать формулу универсальнее
+quantity = len(data)  # решила попробовать сделать формулу универсальнее
 
-formula_one = (num_one+num_two)/quantity
+formula_one = (num_one + num_two) / quantity
 print("Среднее арифметическое: " + str(formula_one))
 
 # Нашла такой вариант - через библиотеку statistics

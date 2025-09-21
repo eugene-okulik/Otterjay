@@ -1,7 +1,6 @@
-
 # Даны 2 числа a и b. Получить их сумму, разность и произведение
 a = 4
 b = 8
-print(a+b)
-print(a-b)
-print(a*b)
+print(a + b)
+print(a - b)
+print(a * b)

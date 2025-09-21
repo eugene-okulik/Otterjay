@@ -9,6 +9,6 @@ hypotenuse = math.sqrt(hypotenuse_sq) # как корень находить п�
 print("Гипотенуза равна: " + str(hypotenuse))
 
 # Формула Герона S = √(p(p-a)(p-b)(p-c))
-p = (c_one+c_two+hypotenuse)/2
-area = math.sqrt(p*(p-c_one)*(p-c_two)*(p-hypotenuse))
+p = (c_one + c_two+hypotenuse) / 2
+area = math.sqrt(p * (p - c_one) * (p - c_two) * (p - hypotenuse))
 print("Площадь равна: " + str(area))
