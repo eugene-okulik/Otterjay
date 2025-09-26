@@ -24,7 +24,7 @@ in_list.pop(1)
 # добавьте элемент с ключом ('i am a tuple',) и любым значением
 # удалите какой-нибудь элемент
 
-in_dict['i am a tuple'] = 'cake is a lie'
+in_dict[('i am a tuple',)] = 'cake is a lie'
 in_dict.pop('key1')
 
 # Для того, что хранится под ключом ‘set’:
